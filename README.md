@@ -22,13 +22,13 @@ The goal of this project is to eliminate manual configuration and achieve a full
 - **WSL (Ubuntu)** – Execution Environment  
 - **Node.js** – Application Runtime
 
----
+---  
+
 
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone the Repository
 
-```bash
 git clone https://github.com/aneesh-siva/ansible-docker-automation.git
 cd ansible-docker-automation
 
