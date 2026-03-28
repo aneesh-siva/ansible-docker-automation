@@ -1,0 +1,8 @@
+- name: Pull Node image
+  docker_container:
+    name: node_app
+    image: node:18
+    state: started
+    ports:
+      - "3000:3000"
+    command: sh -c "echo 'Hello from Ansible Project' > index.html && python3 -m http.server 3000"

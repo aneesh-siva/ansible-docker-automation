@@ -1,0 +1,7 @@
+- name: Setup and Deploy App
+  hosts: localhost
+  become: yes
+
+  roles:
+    - docker
+    - app

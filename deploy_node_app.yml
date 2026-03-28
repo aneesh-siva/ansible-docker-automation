@@ -1,0 +1,13 @@
+- name: Deploy Node.js App Container
+  hosts: local
+  become: yes
+
+  tasks:
+    - name: Run Node.js container
+      docker_container:
+        name: node_app
+        image: node:18
+        state: started
+        command: "node -e \"require('http').createServer((req,res)=>res.end('Hello from Ansible DevOps Project')).listen(3000)\""
+        ports:
+          - "3000:3000"
