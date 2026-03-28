@@ -63,9 +63,13 @@ http://localhost:3000
 🎯 Features
 
 ✅ Fully automated deployment
+
 ✅ Modular Ansible roles (industry standard)
+
 ✅ Idempotent execution
+
 ✅ Containerized application
+
 ✅ No manual intervention required
 
 
